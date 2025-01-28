@@ -13,7 +13,6 @@ void Saludo::mostrarSaludo() {
 
     localtime_s(&fecha, &ahora);
 
-    // Mostrar el saludo
     cout << "Hola Mundo. Saludo de " << nombreEstudiante
         << " hoy " << put_time(&fecha, "%d/%m/%Y") << "." << endl;
 }

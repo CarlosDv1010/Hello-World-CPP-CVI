@@ -1,4 +1,3 @@
-#ifndef SALUDO_H
 #define SALUDO_H
 
 #include <string>
@@ -13,5 +12,3 @@ public:
     Saludo(string nombre);
     void mostrarSaludo();
 };
-
-#endif
